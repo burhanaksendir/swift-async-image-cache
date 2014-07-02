@@ -7,7 +7,7 @@ The project is written as an extension of UIImageView, it covers most of the use
 
 How to use
 =======================
-
+<pre>
 class UIIndexViewController : UIViewController {
   @IBOutlet var demoImageView : UIImageView
   // let`s pretent the demoImageView is linked to an UIImageView element in storyboard
@@ -16,7 +16,7 @@ class UIIndexViewController : UIViewController {
     demoImageView.loadImage("https://github.com/images/modules/dashboard/bootcamp/octocat_repo.png", autoCache: true)
   }
 }
-
+</pre>
 Custom cache
 =======================
 You can easily change the second argument (autoCache) to false to force update local cache, if you set autoCache: true, the extension will not update the cache with same URL until you delete the cache.
