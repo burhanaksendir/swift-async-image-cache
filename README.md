@@ -25,4 +25,4 @@ Custom cache expire time will be added in the future.
 
 Contact me
 =======================
-Feel free to contact me <me@idickyt.com>, or you can directly fock this project.
+Feel free to contact me <me@idickyt.com>, or you can directly fork this project.
